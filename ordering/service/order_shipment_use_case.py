@@ -5,7 +5,7 @@ from ordering.api.errors import OrderCannotBeShippedError, OrderCannotBeShippedT
 from ordering.api.order_shipment_request import OrderShipmentRequest
 
 
-class OrderShipmentUseCase(object):
+class OrderShipmentUseCase:
     def __init__(self, order_repository: OrderRepository, shipment_service: ShipmentService):
         self.order_repository = order_repository
         self.shipment_service = shipment_service
