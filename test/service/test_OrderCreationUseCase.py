@@ -1,13 +1,13 @@
 import decimal
 import unittest
 
-from src.domain.Category import Category
-from src.domain.OrderStatus import OrderStatus
-from src.domain.Product import Product
-from src.service.OrderCreationUseCase import OrderCreationUseCase
-from src.api.SellItemRequest import SellItemRequest
-from src.api.SellItemsRequest import SellItemsRequest
-from src.api.UnknownProductError import UnknownProductError
+from ordering.domain.Category import Category
+from ordering.domain.OrderStatus import OrderStatus
+from ordering.domain.Product import Product
+from ordering.service.OrderCreationUseCase import OrderCreationUseCase
+from ordering.api.SellItemRequest import SellItemRequest
+from ordering.api.SellItemsRequest import SellItemsRequest
+from ordering.api.UnknownProductError import UnknownProductError
 from test.doubles.InMemoryProductCatalog import InMemoryProductCatalog
 from test.doubles.TestOrderRepository import TestOrderRepository
 

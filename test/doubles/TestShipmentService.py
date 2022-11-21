@@ -1,5 +1,5 @@
-from src.domain.Order import Order
-from src.service.ShipmentService import ShipmentService
+from ordering.domain.Order import Order
+from ordering.service.ShipmentService import ShipmentService
 
 
 class TestShipmentService(ShipmentService):

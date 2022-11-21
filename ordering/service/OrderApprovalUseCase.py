@@ -1,9 +1,9 @@
-from src.domain.OrderStatus import OrderStatus
-from src.repository.OrderRepository import OrderRepository
-from src.api.ApprovedOrderCannotBeRejectedError import ApprovedOrderCannotBeRejectedError
-from src.api.OrderApprovalRequest import OrderApprovalRequest
-from src.api.RejectedOrderCannotBeApprovedError import RejectedOrderCannotBeApprovedError
-from src.api.ShippedOrdersCannotBeChangedError import ShippedOrdersCannotBeChangedError
+from ordering.domain.OrderStatus import OrderStatus
+from ordering.repository.OrderRepository import OrderRepository
+from ordering.api.ApprovedOrderCannotBeRejectedError import ApprovedOrderCannotBeRejectedError
+from ordering.api.OrderApprovalRequest import OrderApprovalRequest
+from ordering.api.RejectedOrderCannotBeApprovedError import RejectedOrderCannotBeApprovedError
+from ordering.api.ShippedOrdersCannotBeChangedError import ShippedOrdersCannotBeChangedError
 
 
 class OrderApprovalUseCase:
