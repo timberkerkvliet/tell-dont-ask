@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod
 
-from ordering.domain.Order import Order
+from ordering.domain.order import Order
 
 
 class OrderRepository(metaclass=ABCMeta):

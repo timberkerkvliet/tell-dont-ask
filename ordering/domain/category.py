@@ -1,7 +1,7 @@
 import decimal
 
 
-class Category(object):
+class Category:
     def __init__(self):
         self.name = ""
         self.tax_percentage = decimal.Decimal("0.00")

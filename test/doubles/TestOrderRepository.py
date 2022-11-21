@@ -1,4 +1,4 @@
-from ordering.domain.Order import Order
+from ordering.domain.order import Order
 from ordering.repository.OrderRepository import OrderRepository
 
 

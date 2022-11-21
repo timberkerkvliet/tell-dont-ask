@@ -1,8 +1,8 @@
 from decimal import Decimal, ROUND_HALF_UP
 
-from ordering.domain.Order import Order
-from ordering.domain.OrderItem import OrderItem
-from ordering.domain.OrderStatus import OrderStatus
+from ordering.domain.order import Order
+from ordering.domain.order_item import OrderItem
+from ordering.domain.order_status import OrderStatus
 from ordering.repository.OrderRepository import OrderRepository
 from ordering.repository.ProductCatalog import ProductCatalog
 from ordering.api.SellItemsRequest import SellItemsRequest

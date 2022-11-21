@@ -1,4 +1,4 @@
-from ordering.domain.OrderStatus import OrderStatus
+from ordering.domain.order_status import OrderStatus
 from ordering.repository.OrderRepository import OrderRepository
 from ordering.api.ApprovedOrderCannotBeRejectedError import ApprovedOrderCannotBeRejectedError
 from ordering.api.OrderApprovalRequest import OrderApprovalRequest

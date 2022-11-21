@@ -1,9 +1,9 @@
 import decimal
 
-from ordering.domain.OrderStatus import OrderStatus
+from ordering.domain.order_status import OrderStatus
 
 
-class Order(object):
+class Order:
     def get_total(self):
         return self.total
 

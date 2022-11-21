@@ -1,10 +1,10 @@
 import decimal
 import unittest
 
-from ordering.domain.Category import Category
-from ordering.domain.OrderStatus import OrderStatus
-from ordering.domain.Product import Product
-from ordering.service.OrderCreationUseCase import OrderCreationUseCase
+from ordering.domain.category import Category
+from ordering.domain.order_status import OrderStatus
+from ordering.domain.product import Product
+from ordering.service.order_creation_use_case import OrderCreationUseCase
 from ordering.api.SellItemRequest import SellItemRequest
 from ordering.api.SellItemsRequest import SellItemsRequest
 from ordering.api.UnknownProductError import UnknownProductError

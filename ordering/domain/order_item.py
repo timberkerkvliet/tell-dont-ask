@@ -1,9 +1,9 @@
 import decimal
 
-from ordering.domain.Product import Product
+from ordering.domain.product import Product
 
 
-class OrderItem(object):
+class OrderItem:
     def get_product(self):
         return self.product
 

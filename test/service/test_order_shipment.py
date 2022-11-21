@@ -1,11 +1,11 @@
 import unittest
 
-from ordering.domain.Order import Order
-from ordering.domain.OrderStatus import OrderStatus
+from ordering.domain.order import Order
+from ordering.domain.order_status import OrderStatus
 from ordering.api.OrderCannotBeShippedError import OrderCannotBeShippedError
 from ordering.api.OrderCannotBeShippedTwiceError import OrderCannotBeShippedTwiceError
 from ordering.api.OrderShipmentRequest import OrderShipmentRequest
-from ordering.service.OrderShipmentUseCase import OrderShipmentUseCase
+from ordering.service.order_shipment_use_case import OrderShipmentUseCase
 from test.doubles.TestOrderRepository import TestOrderRepository
 from test.doubles.TestShipmentService import TestShipmentService
 

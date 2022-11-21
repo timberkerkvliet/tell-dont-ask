@@ -1,9 +1,9 @@
 import decimal
 
-from ordering.domain.Category import Category
+from ordering.domain.category import Category
 
 
-class Product(object):
+class Product:
     def get_name(self):
         return self.name
 
