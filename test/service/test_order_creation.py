@@ -5,9 +5,9 @@ from ordering.domain.category import Category
 from ordering.domain.order_status import OrderStatus
 from ordering.domain.product import Product
 from ordering.service.order_creation_use_case import OrderCreationUseCase
-from ordering.api.SellItemRequest import SellItemRequest
-from ordering.api.SellItemsRequest import SellItemsRequest
-from ordering.api.UnknownProductError import UnknownProductError
+from ordering.api.sell_item_request import SellItemRequest
+from ordering.api.sell_items_request import SellItemsRequest
+from ordering.api.errors import UnknownProductError
 from test.doubles.InMemoryProductCatalog import InMemoryProductCatalog
 from test.doubles.TestOrderRepository import TestOrderRepository
 

@@ -1,4 +1,4 @@
-from ordering.repository.ProductCatalog import ProductCatalog
+from ordering.repository.product_catalog import ProductCatalog
 
 
 class InMemoryProductCatalog(ProductCatalog):

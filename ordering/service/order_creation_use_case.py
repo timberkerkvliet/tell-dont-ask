@@ -3,10 +3,10 @@ from decimal import Decimal, ROUND_HALF_UP
 from ordering.domain.order import Order
 from ordering.domain.order_item import OrderItem
 from ordering.domain.order_status import OrderStatus
-from ordering.repository.OrderRepository import OrderRepository
-from ordering.repository.ProductCatalog import ProductCatalog
-from ordering.api.SellItemsRequest import SellItemsRequest
-from ordering.api.UnknownProductError import UnknownProductError
+from ordering.repository.order_repository import OrderRepository
+from ordering.repository.product_catalog import ProductCatalog
+from ordering.api.sell_items_request import SellItemsRequest
+from ordering.api.errors import UnknownProductError
 
 
 class OrderCreationUseCase:

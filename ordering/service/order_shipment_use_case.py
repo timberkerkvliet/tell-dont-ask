@@ -1,9 +1,8 @@
 from ordering.domain.order_status import OrderStatus
-from ordering.repository.OrderRepository import OrderRepository
+from ordering.repository.order_repository import OrderRepository
 from ordering.service.shipment_service import ShipmentService
-from ordering.api.OrderCannotBeShippedError import OrderCannotBeShippedError
-from ordering.api.OrderCannotBeShippedTwiceError import OrderCannotBeShippedTwiceError
-from ordering.api.OrderShipmentRequest import OrderShipmentRequest
+from ordering.api.errors import OrderCannotBeShippedError, OrderCannotBeShippedTwiceError
+from ordering.api.order_shipment_request import OrderShipmentRequest
 
 
 class OrderShipmentUseCase(object):

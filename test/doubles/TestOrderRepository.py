@@ -1,5 +1,5 @@
 from ordering.domain.order import Order
-from ordering.repository.OrderRepository import OrderRepository
+from ordering.repository.order_repository import OrderRepository
 
 
 class TestOrderRepository(OrderRepository):
