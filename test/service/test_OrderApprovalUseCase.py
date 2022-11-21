@@ -2,11 +2,11 @@ import unittest
 
 from src.domain.Order import Order
 from src.domain.OrderStatus import OrderStatus
-from src.useCase.ApprovedOrderCannotBeRejectedError import ApprovedOrderCannotBeRejectedError
-from src.useCase.OrderApprovalRequest import OrderApprovalRequest
-from src.useCase.OrderApprovalUseCase import OrderApprovalUseCase
-from src.useCase.RejectedOrderCannotBeApprovedError import RejectedOrderCannotBeApprovedError
-from src.useCase.ShippedOrdersCannotBeChangedError import ShippedOrdersCannotBeChangedError
+from src.api.ApprovedOrderCannotBeRejectedError import ApprovedOrderCannotBeRejectedError
+from src.api.OrderApprovalRequest import OrderApprovalRequest
+from src.service.OrderApprovalUseCase import OrderApprovalUseCase
+from src.api.RejectedOrderCannotBeApprovedError import RejectedOrderCannotBeApprovedError
+from src.api.ShippedOrdersCannotBeChangedError import ShippedOrdersCannotBeChangedError
 from test.doubles.TestOrderRepository import TestOrderRepository
 
 

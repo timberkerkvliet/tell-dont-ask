@@ -5,8 +5,8 @@ from src.domain.OrderItem import OrderItem
 from src.domain.OrderStatus import OrderStatus
 from src.repository.OrderRepository import OrderRepository
 from src.repository.ProductCatalog import ProductCatalog
-from src.useCase.SellItemsRequest import SellItemsRequest
-from src.useCase.UnknownProductError import UnknownProductError
+from src.api.SellItemsRequest import SellItemsRequest
+from src.api.UnknownProductError import UnknownProductError
 
 
 class OrderCreationUseCase:

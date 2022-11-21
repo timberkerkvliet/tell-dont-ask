@@ -4,10 +4,10 @@ import unittest
 from src.domain.Category import Category
 from src.domain.OrderStatus import OrderStatus
 from src.domain.Product import Product
-from src.useCase.OrderCreationUseCase import OrderCreationUseCase
-from src.useCase.SellItemRequest import SellItemRequest
-from src.useCase.SellItemsRequest import SellItemsRequest
-from src.useCase.UnknownProductError import UnknownProductError
+from src.service.OrderCreationUseCase import OrderCreationUseCase
+from src.api.SellItemRequest import SellItemRequest
+from src.api.SellItemsRequest import SellItemsRequest
+from src.api.UnknownProductError import UnknownProductError
 from test.doubles.InMemoryProductCatalog import InMemoryProductCatalog
 from test.doubles.TestOrderRepository import TestOrderRepository
 
