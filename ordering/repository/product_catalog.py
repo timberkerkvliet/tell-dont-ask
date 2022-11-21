@@ -1,10 +1,7 @@
-from abc import ABCMeta, abstractmethod
+from abc import ABC, abstractmethod
 
 
-class ProductCatalog(metaclass=ABCMeta):
-    def __init(self):
-        raise NotImplementedError
-
+class ProductCatalog(ABC):
     @abstractmethod
     def get_by_name(self, name: str):
         pass

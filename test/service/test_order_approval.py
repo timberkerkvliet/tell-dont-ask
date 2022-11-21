@@ -6,7 +6,7 @@ from ordering.api.errors import ApprovedOrderCannotBeRejectedError, RejectedOrde
     ShippedOrdersCannotBeChangedError
 from ordering.api.order_approval_request import OrderApprovalRequest
 from ordering.service.order_approval_use_case import OrderApprovalUseCase
-from test.doubles.TestOrderRepository import TestOrderRepository
+from test.doubles.test_order_repository import TestOrderRepository
 
 
 class TestOrderApprovalUseCase(unittest.TestCase):

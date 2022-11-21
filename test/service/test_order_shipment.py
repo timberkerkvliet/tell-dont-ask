@@ -5,8 +5,8 @@ from ordering.domain.order_status import OrderStatus
 from ordering.api.errors import OrderCannotBeShippedError, OrderCannotBeShippedTwiceError
 from ordering.api.order_shipment_request import OrderShipmentRequest
 from ordering.service.order_shipment_use_case import OrderShipmentUseCase
-from test.doubles.TestOrderRepository import TestOrderRepository
-from test.doubles.TestShipmentService import TestShipmentService
+from test.doubles.test_order_repository import TestOrderRepository
+from test.doubles.test_shipment_service import TestShipmentService
 
 
 class TestOrderShipmentUseCase(unittest.TestCase):

@@ -1,4 +1,4 @@
-class SellItemsRequest(object):
+class SellItemsRequest:
     def set_requests(self, requests: list):
         self.requests = requests
 

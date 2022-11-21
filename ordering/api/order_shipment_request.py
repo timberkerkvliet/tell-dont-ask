@@ -1,4 +1,4 @@
-class OrderShipmentRequest(object):
+class OrderShipmentRequest:
     def set_order_id(self, order_id: int):
         self.order_id = order_id
 

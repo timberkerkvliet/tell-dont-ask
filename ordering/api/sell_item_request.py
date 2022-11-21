@@ -1,4 +1,4 @@
-class SellItemRequest(object):
+class SellItemRequest:
     def set_quantity(self, quantity: int):
         self.quantity = quantity
 

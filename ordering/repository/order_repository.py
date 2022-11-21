@@ -1,9 +1,9 @@
-from abc import ABCMeta, abstractmethod
+from abc import ABC, abstractmethod
 
 from ordering.domain.order import Order
 
 
-class OrderRepository(metaclass=ABCMeta):
+class OrderRepository(ABC):
     def __init(self):
         raise NotImplementedError
 

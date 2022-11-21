@@ -8,8 +8,8 @@ from ordering.service.order_creation_use_case import OrderCreationUseCase
 from ordering.api.sell_item_request import SellItemRequest
 from ordering.api.sell_items_request import SellItemsRequest
 from ordering.api.errors import UnknownProductError
-from test.doubles.InMemoryProductCatalog import InMemoryProductCatalog
-from test.doubles.TestOrderRepository import TestOrderRepository
+from test.doubles.in_memory_product_catalog import InMemoryProductCatalog
+from test.doubles.test_order_repository import TestOrderRepository
 
 
 class TestOrderCreationUseCase(unittest.TestCase):
